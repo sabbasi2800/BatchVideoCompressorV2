@@ -12,10 +12,10 @@ import android.os.IBinder;
 import android.os.SystemClock;
 import android.provider.MediaStore;
 
-import androidx.annotation.Nullable;
 import androidx.media3.common.MediaItem;
 import androidx.media3.common.MimeTypes;
 import androidx.media3.transformer.EditedMediaItem;
+import androidx.media3.transformer.Composition;
 import androidx.media3.transformer.ExportException;
 import androidx.media3.transformer.ExportResult;
 import androidx.media3.transformer.ProgressHolder;
